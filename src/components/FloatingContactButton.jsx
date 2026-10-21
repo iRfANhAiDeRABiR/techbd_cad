@@ -36,8 +36,8 @@ export default function FloatingContactButton() {
                   <span>Tech Solutions BD</span>
                   <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                 </div>
-                <div className="text-[10px] text-cyan-400 font-mono">
-                  +66 64 710 9664
+                <div className="text-[10px] text-cyan-400 font-semibold">
+                  WhatsApp Support
                 </div>
               </div>
             </div>

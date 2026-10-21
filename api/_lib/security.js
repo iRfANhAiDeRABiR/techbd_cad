@@ -161,12 +161,12 @@ export function validateOrderInput(input) {
 
 /**
  * Generate cryptographically secure and unpredictable order reference
- * Format: SOFT-ATD-<random 6-digit number + 2-char hex>
+ * Format: TECHBD-ATD-<random 6-digit number + 2-char hex>
  */
 export function generateOrderRef() {
   const randomNum = Math.floor(100000 + Math.random() * 900000);
   const suffix = Math.random().toString(16).substring(2, 4).toUpperCase();
-  return `SOFT-ATD-${randomNum}${suffix}`;
+  return `TECHBD-ATD-${randomNum}${suffix}`;
 }
 
 /**

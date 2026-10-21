@@ -87,7 +87,7 @@ describe('Order Lifecycle & Payment Integrity Tests', () => {
     const count = 500;
     for (let i = 0; i < count; i++) {
       const ref = generateOrderRef();
-      assert.ok(ref.startsWith('SOFT-ATD-'), 'Order reference must match SOFT-ATD-* prefix');
+      assert.ok(ref.startsWith('TECHBD-ATD-'), 'Order reference must match TECHBD-ATD-* prefix');
       assert.ok(!refs.has(ref), `Collision detected on generation: ${ref}`);
       refs.add(ref);
     }

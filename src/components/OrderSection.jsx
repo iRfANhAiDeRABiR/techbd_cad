@@ -158,7 +158,7 @@ export default function OrderSection() {
       const cleanPhone = phone.trim().replace(/[^0-9+\s-]/g, '').slice(0, 25);
       const cleanReq = requirements ? requirements.trim().replace(/[<>]/g, '').slice(0, 300) : '';
 
-      const generatedRef = `SOFT-ATD-${Math.floor(100000 + Math.random() * 900000)}`;
+      const generatedRef = `TECHBD-ATD-${Math.floor(100000 + Math.random() * 900000)}`;
       const orderPayload = {
         refId: generatedRef,
         product: 'Autodesk All Apps',
@@ -502,36 +502,19 @@ export default function OrderSection() {
                 )}
               </div>
 
-              {/* Duration & Quantity Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-semibold text-slate-700 block mb-1.5">
-                    {t.order.durationSelectLabel}
-                  </label>
-                  <select
-                    value={currentPlan.duration}
-                    onChange={(e) => handleDurationChange(e.target.value)}
-                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-colors"
-                  >
-                    <option value="1 Year">{lang === 'bn' ? '১ বছর (1 Year - 699 BDT)' : '1 Year Subscription (699 BDT)'}</option>
-                    <option value="2 Years">{lang === 'bn' ? '২ বছর (2 Years - 1249 BDT)' : '2 Years Subscription (1249 BDT)'}</option>
-                    <option value="3 Years">{lang === 'bn' ? '৩ বছর (3 Years - 1849 BDT)' : '3 Years Subscription (1849 BDT)'}</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="text-xs font-semibold text-slate-700 block mb-1.5">
-                    {t.order.quantityLabel}
-                  </label>
-                  <input
-                    type="number"
-                    min="1"
-                    max="100"
-                    value={quantity}
-                    onChange={(e) => setQuantity(e.target.value)}
-                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-colors"
-                  />
-                </div>
+              {/* Quantity / Seats */}
+              <div>
+                <label className="text-xs font-semibold text-slate-700 block mb-1.5">
+                  {t.order.quantityLabel}
+                </label>
+                <input
+                  type="number"
+                  min="1"
+                  max="100"
+                  value={quantity}
+                  onChange={(e) => setQuantity(e.target.value)}
+                  className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-colors"
+                />
               </div>
 
               {/* Payment Method Options (Verified Online Vector Logos) */}

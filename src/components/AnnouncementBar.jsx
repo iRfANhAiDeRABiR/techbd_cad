@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { MessageCircle, Mail, Sparkles, ShieldCheck } from 'lucide-react';
+import { MessageCircle, Mail, Phone } from 'lucide-react';
 import { trackContact } from '../services/pixelService';
 
 export default function AnnouncementBar() {
@@ -26,10 +26,19 @@ export default function AnnouncementBar() {
         </div>
 
         {/* Right: Quick Channels */}
-        <div className="hidden sm:flex items-center gap-3 text-[11px] font-mono">
+        <div className="hidden sm:flex items-center gap-3 text-[11px]">
+          <a
+            href="tel:+8801641699879"
+            className="flex items-center gap-1 text-slate-300 hover:text-cyan-300 font-mono transition-colors"
+            title="Call Support (+8801641699879)"
+          >
+            <Phone className="w-3 h-3 text-cyan-400" />
+            <span>+8801641699879</span>
+          </a>
+          <span className="text-slate-600">|</span>
           <a
             href="mailto:Support@techsolutions.bd"
-            className="flex items-center gap-1 text-slate-300 hover:text-cyan-300 transition-colors"
+            className="flex items-center gap-1 text-slate-300 hover:text-cyan-300 font-mono transition-colors"
           >
             <Mail className="w-3 h-3 text-cyan-400" />
             <span>Support@techsolutions.bd</span>
@@ -40,10 +49,11 @@ export default function AnnouncementBar() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackContact('AnnouncementBar_WhatsApp')}
-            className="flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
+            className="flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-bold transition-colors"
+            title="WhatsApp Support"
           >
-            <MessageCircle className="w-3 h-3 text-emerald-400" />
-            <span>+66 64 710 9664</span>
+            <MessageCircle className="w-3.5 h-3.5 text-emerald-400" />
+            <span>WhatsApp</span>
           </a>
         </div>
 

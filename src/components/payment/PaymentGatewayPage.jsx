@@ -188,7 +188,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
     }
     setError('');
 
-    const targetRef = activeRefId || order?.refId || `SOFT-ATD-${Math.floor(100000 + Math.random() * 900000)}`;
+    const targetRef = activeRefId || order?.refId || `TECHBD-ATD-${Math.floor(100000 + Math.random() * 900000)}`;
     if (!activeRefId) setActiveRefId(targetRef);
 
     // Prepare complete sanitized payload ready for Telegram Bot
@@ -514,7 +514,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
                 />
                 <div>
                   <div className="text-xs font-bold text-slate-900">Tech Solutions BD</div>
-                  <div className="text-[10px] text-slate-500 font-mono">Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
+                  <div className="text-[10px] text-slate-500 font-mono">Invoice: {order?.refId || "TECHBD-ATD-81923"}</div>
                 </div>
               </div>
               <div className="text-right">
@@ -533,7 +533,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
               <NagadLogo className="w-8 h-8 bg-white p-1 rounded-full" />
               <div>
                 <div className="text-xs font-bold text-white tracking-wide">Tech Solutions BD</div>
-                <div className="text-[10px] text-red-200 font-mono">Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
+                <div className="text-[10px] text-red-200 font-mono">Invoice: {order?.refId || "TECHBD-ATD-81923"}</div>
               </div>
             </div>
             <div className="text-right">
@@ -552,7 +552,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
                 <RocketLogo className="w-8 h-8 bg-white p-1 rounded-full" />
                 <div>
                   <div className="text-xs font-bold text-white">ডাচ-বাংলা ব্যাংক রকেট (Rocket)</div>
-                  <div className="text-[10px] text-purple-200">Tech Solutions BD &bull; Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
+                  <div className="text-[10px] text-purple-200">Tech Solutions BD &bull; Invoice: {order?.refId || "TECHBD-ATD-81923"}</div>
                 </div>
               </div>
               <span className="text-base sm:text-lg font-black font-mono text-white">

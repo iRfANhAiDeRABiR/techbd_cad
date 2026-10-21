@@ -78,10 +78,10 @@ export default function Navbar() {
               rel="noopener noreferrer"
               onClick={() => trackContact('Navbar_WhatsApp')}
               className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200/80 transition-all shadow-xs"
-              title="Chat on WhatsApp (+66 64 710 9664)"
+              title="WhatsApp Support"
             >
               <MessageCircle className="w-3.5 h-3.5 text-emerald-600" />
-              <span className="font-mono text-[11px]">+66 64 710 9664</span>
+              <span>WhatsApp</span>
             </a>
 
             {/* Language Switcher */}
@@ -170,7 +170,7 @@ export default function Navbar() {
               className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-300/80 shadow-xs"
             >
               <MessageCircle className="w-4 h-4 text-emerald-600" />
-              <span>WhatsApp: +66 64 710 9664</span>
+              <span>WhatsApp</span>
             </a>
 
             <a

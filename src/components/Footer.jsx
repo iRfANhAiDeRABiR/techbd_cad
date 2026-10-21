@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './common/Logo';
 import { useLanguage } from '../context/LanguageContext';
-import { ShieldCheck, Mail, MessageCircle, Lock, Sparkles } from 'lucide-react';
+import { ShieldCheck, Mail, MessageCircle, Phone, Lock, Sparkles } from 'lucide-react';
 import { BkashLogo, NagadLogo, RocketLogo } from './common/PaymentLogos';
 import { trackContact } from '../services/pixelService';
 
@@ -51,6 +51,13 @@ export default function Footer() {
             {/* Contact details */}
             <div className="pt-2 space-y-2 text-xs">
               <a
+                href="tel:+8801641699879"
+                className="flex items-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors font-mono"
+              >
+                <Phone className="w-4 h-4 text-cyan-400" />
+                <span>+8801641699879 (Phone Support)</span>
+              </a>
+              <a
                 href="mailto:Support@techsolutions.bd"
                 className="flex items-center gap-2 text-slate-300 hover:text-cyan-400 transition-colors"
               >
@@ -62,10 +69,10 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => trackContact('Footer_WhatsApp')}
-                className="flex items-center gap-2 text-slate-300 hover:text-emerald-400 transition-colors font-mono"
+                className="flex items-center gap-2 text-slate-300 hover:text-emerald-400 transition-colors"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-400" />
-                <span>+66 64 710 9664 (WhatsApp Direct)</span>
+                <span>WhatsApp Support</span>
               </a>
             </div>
 

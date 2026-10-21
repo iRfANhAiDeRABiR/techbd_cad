@@ -47,9 +47,9 @@ export default function ContactSection() {
                   <MessageCircle className="w-5 h-5" />
                 </div>
                 <div className="text-xs text-slate-500 mb-1">{t.contact.whatsappLabel}</div>
-                <div className="text-sm font-bold text-slate-900 font-mono">{t.contact.whatsappValue}</div>
+                <div className="text-sm font-bold text-slate-900">{t.contact.whatsappValue}</div>
                 <a
-                  href={`https://wa.me/${t.contact.whatsappValue.replace(/[^0-9]/g, '')}`}
+                  href="https://wa.me/66647109664"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackContact('ContactSection_WhatsApp')}

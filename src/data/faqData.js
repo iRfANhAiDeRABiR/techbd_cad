@@ -86,8 +86,8 @@ export const faqData = [
     categoryBn: "সাপোর্ট",
     question: "How can I contact customer support?",
     questionBn: "কাস্টমার সাপোর্টে কীভাবে যোগাযোগ করব?",
-    answer: "You can reach our dedicated support desk anytime via our floating WhatsApp button on this site, call our customer hotline at +66 64 710 9664, email us at Support@techsolutions.bd, or send a message through the contact form on this page. We respond promptly!",
-    answerBn: "আমাদের সাথে যোগাযোগ করা খুব সহজ: স্ক্রিনের নিচে ডানদিকের WhatsApp বাটনে ক্লিক করুন, সরাসরি যোগাযোগ করুন আমাদের হেল্পলাইনে (+৬৩ ৯৫৫ ২৫০ ৬০২৩), অথবা Support@techsolutions.bd এ ইমেইল করুন।"
+    answer: "You can reach our dedicated support desk anytime via our floating WhatsApp button on this site, call our customer hotline at +8801641699879, email us at Support@techsolutions.bd, or send a message through the contact form on this page. We respond promptly!",
+    answerBn: "আমাদের সাথে যোগাযোগ করা খুব সহজ: স্ক্রিনের নিচে ডানদিকের WhatsApp বাটনে ক্লিক করুন, সরাসরি কল করুন আমাদের হেল্পলাইনে (+৮৮০১৬৪১৬৯৯৮৭৯), অথবা Support@techsolutions.bd এ ইমেইল করুন।"
   }
 ];
 

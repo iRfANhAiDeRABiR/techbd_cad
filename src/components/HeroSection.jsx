@@ -58,7 +58,7 @@ export default function HeroSection() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-sm bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-800 transition-all duration-200 shadow-xs"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-600" />
-                <span>WhatsApp: +66 64 710 9664</span>
+                <span>WhatsApp</span>
               </a>
 
               <a
