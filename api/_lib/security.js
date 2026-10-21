@@ -240,7 +240,7 @@ export async function updateTelegramMessageRemark({
       : '';
 
     newText = `
-${isConfirm ? '✅' : '❌'} <b>SOFTWARE SOLUTIONS BD ORDER — ${isConfirm ? 'CONFIRMED' : 'INVALID'}</b>
+${isConfirm ? '✅' : '❌'} <b>TECH SOLUTIONS BD ORDER — ${isConfirm ? 'CONFIRMED' : 'INVALID'}</b>
 ━━━━━━━━━━━━━━━━━━━━━
 📋 <b>Order Ref:</b> <code>${escapeTelegramHtml(orderRecord.refId)}</code>
 👤 <b>Customer:</b> <b>${escapeTelegramHtml(orderRecord.name)}</b>
@@ -266,14 +266,14 @@ ${statusRemarkBlock}
       .trim();
 
     newText = `
-${isConfirm ? '✅' : '❌'} <b>SOFTWARE SOLUTIONS BD ORDER — ${isConfirm ? 'CONFIRMED' : 'INVALID'}</b>
+${isConfirm ? '✅' : '❌'} <b>TECH SOLUTIONS BD ORDER — ${isConfirm ? 'CONFIRMED' : 'INVALID'}</b>
 ${baseText.replace(/^[^\n]*\n/, '')}
 ━━━━━━━━━━━━━━━━━━━━━
 ${statusRemarkBlock}
     `.trim();
   } else {
     newText = `
-${isConfirm ? '✅' : '❌'} <b>SOFTWARE SOLUTIONS BD ORDER #${escapeTelegramHtml(orderRef)}</b>
+${isConfirm ? '✅' : '❌'} <b>TECH SOLUTIONS BD ORDER #${escapeTelegramHtml(orderRef)}</b>
 ━━━━━━━━━━━━━━━━━━━━━
 ${statusRemarkBlock}
     `.trim();

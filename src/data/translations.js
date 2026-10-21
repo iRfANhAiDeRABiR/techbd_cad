@@ -1,11 +1,11 @@
-// Autodesk-focused translations for Software Solutions BD (EN & BN) - Only 1 Year & 3 Years
+// Autodesk-focused translations for Tech Solutions BD (EN & BN) - Only 1 Year & 3 Years
 
 export const translations = {
   en: {
-    brandName: "Software Solutions BD",
-    brandTagline: "Autodesk Solutions for Design, Engineering & Creativity",
+    brandName: "Tech Solutions BD",
+    brandTagline: "Your Productivity. Our Solutions.",
     altTagline: "Power Your Ideas With Autodesk",
-    companyDesc: "Software Solutions BD provides Autodesk software subscription solutions for designers, architects, engineers, manufacturers, construction professionals and creative teams.",
+    companyDesc: "Tech Solutions BD provides Autodesk software subscription solutions for designers, architects, engineers, manufacturers, construction professionals and creative teams.",
 
     // Announcement Bar
     announcement: "Autodesk Software Subscriptions | Fast Digital Delivery | Dedicated Support",
@@ -124,14 +124,14 @@ export const translations = {
 
     // Why Choose Us
     whyChoose: {
-      heading: "Why Choose Software Solutions BD?",
+      heading: "Why Choose Tech Solutions BD?",
       subtitle: "Our specialized focus delivers reliable Autodesk subscription solutions with responsive guidance."
     },
 
     // Trust & Authenticity Section
     authenticity: {
       heading: "Choose the Right Autodesk Subscription",
-      notice: "Subscription terms, activation methods, availability and included features may vary by Autodesk product and plan. Contact Software Solutions BD before ordering if you need help selecting the appropriate option.",
+      notice: "Subscription terms, activation methods, availability and included features may vary by Autodesk product and plan. Contact Tech Solutions BD before ordering if you need help selecting the appropriate option.",
       bullet1: "Official subscription duration choices (1 Year, 2 Years, 3 Years)",
       bullet2: "Transparent, upfront pricing information",
       bullet3: "Pre-order technical consultation available via WhatsApp or phone"
@@ -217,7 +217,7 @@ export const translations = {
     // Final CTA
     finalCta: {
       heading: "Find the Right Autodesk Software for Your Work",
-      subtitle: "Explore Autodesk products or contact Software Solutions BD for help choosing a subscription.",
+      subtitle: "Explore Autodesk products or contact Tech Solutions BD for help choosing a subscription.",
       exploreBtn: "Explore Products →",
       contactBtn: "Contact Us"
     },
@@ -227,11 +227,11 @@ export const translations = {
       heading: "Need Help Choosing an Autodesk Product?",
       subtitle: "Our team can help you understand the available Autodesk solutions and subscription options.",
       phoneLabel: "Phone Support",
-      phoneValue: "+880 9697399879",
+      phoneValue: "+66 64 710 9664",
       whatsappLabel: "WhatsApp Support",
-      whatsappValue: "+63 955 250 6023",
+      whatsappValue: "+66 64 710 9664",
       emailLabel: "Email Desk",
-      emailValue: "Support@solutionsbd.com",
+      emailValue: "Support@techsolutions.bd",
       hoursLabel: "Business Hours",
       hoursValue: "Saturday – Thursday: 9:00 AM – 10:00 PM",
       whatsappBtn: "WhatsApp Us",
@@ -245,7 +245,7 @@ export const translations = {
       colProducts: "Autodesk Products",
       colCollections: "Collections",
       colSupport: "Support",
-      copyright: "© 2026 Software Solutions BD. All rights reserved.",
+      copyright: "© 2026 Tech Solutions BD. All rights reserved.",
       disclaimer: "Autodesk, the Autodesk logo, AutoCAD, Revit, 3ds Max, Maya, Fusion 360, Civil 3D, and Inventor are registered trademarks or trademarks of Autodesk, Inc. All other brand names, product names, or trademarks belong to their respective holders."
     },
 
@@ -256,10 +256,10 @@ export const translations = {
   },
 
   bn: {
-    brandName: "সফটওয়্যার সলিউশন বিডি",
+    brandName: "টেক সলিউশন বিডি",
     brandTagline: "ডিজাইন, ইঞ্জিনিয়ারিং ও ক্রিয়েটিভিটিতে অটোডেস্ক সমাধান",
     altTagline: "আপনার সৃষ্টিশীলতাকে এগিয়ে নিন অটোডেস্কে",
-    companyDesc: "সফটওয়্যার সলিউশন বিডি আর্কিটেক্ট, সিভিল ও মেকানিক্যাল ইঞ্জিনিয়ার, ডিজাইনার এবং নির্মাণ শিল্পীদের জন্য অটোডেস্ক সফটওয়্যার সাবস্ক্রিপশন সমাধান সরবরাহ করে।",
+    companyDesc: "টেক সলিউশন বিডি আর্কিটেক্ট, সিভিল ও মেকানিক্যাল ইঞ্জিনিয়ার, ডিজাইনার এবং নির্মাণ শিল্পীদের জন্য অটোডেস্ক সফটওয়্যার সাবস্ক্রিপশন সমাধান সরবরাহ করে।",
 
     // Announcement Bar
     announcement: "অটোডেস্ক সফটওয়্যার সাবস্ক্রিপশন | দ্রুত ডিজিটাল ডেলিভারি | বিশেষজ্ঞ টেকনিক্যাল সাপোর্ট",
@@ -378,14 +378,14 @@ export const translations = {
 
     // Why Choose Us
     whyChoose: {
-      heading: "কেন সফটওয়্যার সলিউশন বিডি বেছে নেবেন?",
+      heading: "কেন টেক সলিউশন বিডি বেছে নেবেন?",
       subtitle: "অটোডেস্ক সমাধানের ওপর আমাদের বিশেষায়িত দক্ষতা ও নির্ভরযোগ্য গ্রাহক সেবা।"
     },
 
     // Trust & Authenticity Section
     authenticity: {
       heading: "সঠিক অটোডেস্ক সাবস্ক্রিপশন নির্বাচন করুন",
-      notice: "অটোডেস্ক প্রোডাক্ট ও প্ল্যান অনুযায়ী সাবস্ক্রিপশনের মেয়াদ, অ্যাক্টিভেশন পদ্ধতি ও সুবিধাসমূহ ভিন্ন হতে পারে। অর্ডার করার পূর্বে প্রয়োজনে সফটওয়্যার সলিউশন বিডির সাথে পরামর্শ করে সঠিক অপশনটি বেছে নিন।",
+      notice: "অটোডেস্ক প্রোডাক্ট ও প্ল্যান অনুযায়ী সাবস্ক্রিপশনের মেয়াদ, অ্যাক্টিভেশন পদ্ধতি ও সুবিধাসমূহ ভিন্ন হতে পারে। অর্ডার করার পূর্বে প্রয়োজনে টেক সলিউশন বিডির সাথে পরামর্শ করে সঠিক অপশনটি বেছে নিন।",
       bullet1: "সুস্পষ্ট সাবস্ক্রিপশন মেয়াদ (১ বছর, ২ বছর ও ৩ বছর)",
       bullet2: "স্বচ্ছ ও সুস্পষ্ট মূল্য বিবরণ",
       bullet3: "অর্ডার করার পূর্বে ফোন বা হোয়াটসঅ্যাপে টেকনিক্যাল পরামর্শ"
@@ -482,11 +482,11 @@ export const translations = {
       heading: "অটোডেস্ক প্রোডাক্ট নির্বাচনে সহযোগিতা প্রয়োজন?",
       subtitle: "আমাদের দল আপনাকে উপযুক্ত অটোডেস্ক সফটওয়্যার ও সাবস্ক্রিপশন অপশন নির্বাচনে সাহায্য করবে।",
       phoneLabel: "ফোন হেল্পলাইন",
-      phoneValue: "+৮৮০ ৯৬৯৭৩৯৯৮৭৯",
+      phoneValue: "+৬৬ ৬৪ ৭১০ ৯৬৬৪",
       whatsappLabel: "হোয়াটসঅ্যাপ ডেস্ক",
-      whatsappValue: "+৬৩ ৯৫৫ ২৫০ ৬০২৩",
+      whatsappValue: "+৬৬ ৬৪ ৭১০ ৯৬৬৪",
       emailLabel: "ইমেইল ডেস্ক",
-      emailValue: "Support@solutionsbd.com",
+      emailValue: "Support@techsolutions.bd",
       hoursLabel: "অফিস সময়",
       hoursValue: "শনিবার – বৃহস্পতিবার: সকাল ৯:০০ – রাত ১০:০০",
       whatsappBtn: "হোয়াটসঅ্যাপে মেসেজ",
@@ -500,7 +500,7 @@ export const translations = {
       colProducts: "অটোডেস্ক প্রোডাক্টস",
       colCollections: "কালেকশনসমূহ",
       colSupport: "সাপোর্ট ও পলিসি",
-      copyright: "© ২০২৬ সফটওয়্যার সলিউশন বিডি। সর্বস্বত্ব সংরক্ষিত।",
+      copyright: "© ২০২৬ টেক সলিউশন বিডি। সর্বস্বত্ব সংরক্ষিত।",
       disclaimer: "Autodesk, AutoCAD, Revit, 3ds Max, Maya, Fusion 360, Civil 3D, এবং Inventor হলো Autodesk, Inc.-এর নিবন্ধিত ট্রেডমার্ক। অন্যান্য সকল ব্র্যান্ড নাম বা ট্রেডমার্ক তাদের নিজ নিজ প্রতিষ্ঠানের সম্পত্তি।"
     },
 

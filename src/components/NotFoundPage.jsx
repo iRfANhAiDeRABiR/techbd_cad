@@ -114,7 +114,7 @@ export default function NotFoundPage({ onGoHome }) {
             </span>
 
             <a
-              href="https://wa.me/639552506023"
+              href="https://wa.me/66647109664"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => trackContact('404_WhatsApp')}
@@ -129,7 +129,7 @@ export default function NotFoundPage({ onGoHome }) {
 
       {/* Footer minimal info */}
       <footer className="relative z-10 py-6 text-center text-xs text-slate-500">
-        © 2024–2027 Software Solutions BD. All Rights Reserved. Official Autodesk Solutions.
+        © 2024–2027 Tech Solutions BD. All Rights Reserved. Official Autodesk Solutions.
       </footer>
     </div>
   );

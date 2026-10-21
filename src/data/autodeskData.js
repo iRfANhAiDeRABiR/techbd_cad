@@ -1,4 +1,4 @@
-// Centralized Autodesk Software Data for Software Solutions BD
+// Centralized Autodesk Software Data for Tech Solutions BD
 
 export const autodeskProducts = [
   {
@@ -573,7 +573,7 @@ export const whyChooseItems = [
   }
 ];
 
-// The 6 Primary Autodesk Categories for Software Solutions BD
+// The 6 Primary Autodesk Categories for Tech Solutions BD
 export const autodeskSixCategories = [
   {
     id: "aec-cad",

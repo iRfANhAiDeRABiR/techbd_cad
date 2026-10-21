@@ -159,7 +159,7 @@ export default async function handler(req, res) {
 
       const headerTitle = isReminder
         ? `⚠️ <b>URGENT REMINDER (#${reminderIndex}/${maxReminders})</b>\n🔔 <b>ORDER AWAITING CONFIRMATION</b>`
-        : `🔔 <b>NEW SOFTWARE SOLUTIONS BD ORDER</b>`;
+        : `🔔 <b>NEW TECH SOLUTIONS BD ORDER</b>`;
 
       const statusLine = isReminder
         ? `Status: ⏳ <b>PENDING VERIFICATION (ACTION REQUIRED #${reminderIndex})</b>`

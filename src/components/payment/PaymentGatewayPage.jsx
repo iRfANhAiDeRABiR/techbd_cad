@@ -211,7 +211,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
       fbp: getBrowserFbpCookie(),
       fbc: getBrowserFbcCookie(),
       testEventCode: typeof window !== 'undefined' ? (sessionStorage.getItem('meta_test_event_code') || null) : null,
-      eventSourceUrl: typeof window !== 'undefined' ? window.location.href : 'https://adesk.solutionsbd.com/#payment'
+      eventSourceUrl: typeof window !== 'undefined' ? window.location.href : 'https://techsolutions.bd/#payment'
     };
 
     // Store in localStorage for status lookup / persistence
@@ -505,7 +505,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
               <div className="flex items-center gap-2.5">
                 <img 
                   src="/logo-icon.png" 
-                  alt="Software Solutions BD" 
+                  alt="Tech Solutions BD" 
                   className="w-8 h-8 object-contain"
                   onError={(e) => {
                     e.currentTarget.onerror = null;
@@ -513,7 +513,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
                   }}
                 />
                 <div>
-                  <div className="text-xs font-bold text-slate-900">Software Solutions BD</div>
+                  <div className="text-xs font-bold text-slate-900">Tech Solutions BD</div>
                   <div className="text-[10px] text-slate-500 font-mono">Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
                 </div>
               </div>
@@ -532,7 +532,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
             <div className="flex items-center gap-2">
               <NagadLogo className="w-8 h-8 bg-white p-1 rounded-full" />
               <div>
-                <div className="text-xs font-bold text-white tracking-wide">Software Solutions BD</div>
+                <div className="text-xs font-bold text-white tracking-wide">Tech Solutions BD</div>
                 <div className="text-[10px] text-red-200 font-mono">Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
               </div>
             </div>
@@ -552,7 +552,7 @@ export default function PaymentGatewayPage({ order, onCancel }) {
                 <RocketLogo className="w-8 h-8 bg-white p-1 rounded-full" />
                 <div>
                   <div className="text-xs font-bold text-white">ডাচ-বাংলা ব্যাংক রকেট (Rocket)</div>
-                  <div className="text-[10px] text-purple-200">Software Solutions BD &bull; Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
+                  <div className="text-[10px] text-purple-200">Tech Solutions BD &bull; Invoice: {order?.refId || "SOFT-ATD-81923"}</div>
                 </div>
               </div>
               <span className="text-base sm:text-lg font-black font-mono text-white">
@@ -1000,8 +1000,8 @@ export default function PaymentGatewayPage({ order, onCancel }) {
                 )}
 
                 <a
-                  href={`https://wa.me/639552506023?text=${encodeURIComponent(
-                    `Hello Software Solutions BD, Order Ref: ${activeRefId || order?.refId}. Method: ${method}, Sender: ${senderNumber}, TrxID: ${trxId}, Status: ${verificationStatus}, Amount: ${order?.totalPrice}`
+                  href={`https://wa.me/66647109664?text=${encodeURIComponent(
+                    `Hello Tech Solutions BD, Order Ref: ${activeRefId || order?.refId}. Method: ${method}, Sender: ${senderNumber}, TrxID: ${trxId}, Status: ${verificationStatus}, Amount: ${order?.totalPrice}`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

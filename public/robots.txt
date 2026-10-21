@@ -1,4 +1,4 @@
-# Software Solutions BD Robots.txt
+# Tech Solutions BD Robots.txt
 # Controls web crawlers and prevents indexing of sensitive probe paths
 
 User-agent: *

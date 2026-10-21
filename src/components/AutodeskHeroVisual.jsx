@@ -28,9 +28,11 @@ export default function AutodeskHeroVisual() {
             <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span className="text-slate-400 font-mono text-[11px] ml-2 flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>
-              <span>Project_Master_Model.dwg / .rvt</span>
+            <span className="text-slate-300 font-mono text-[11px] ml-2 flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+              <span className="font-semibold text-white">Tech Solutions BD</span>
+              <span className="text-slate-500">•</span>
+              <span className="text-cyan-400 font-medium">Genuine License Active</span>
             </span>
           </div>
 

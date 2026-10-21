@@ -1,8 +1,8 @@
-Contact: mailto:Support@solutionsbd.com
+Contact: mailto:Support@techsolutions.bd
 Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: en, bn
-# Canonical: https://solutionsbd.com/.well-known/security.txt
-# Policy: https://solutionsbd.com/#security
-# Hiring: https://solutionsbd.com/
-# Acknowledgments: https://solutionsbd.com/
+# Canonical: https://techsolutions.bd/.well-known/security.txt
+# Policy: https://techsolutions.bd/#security
+# Hiring: https://techsolutions.bd/
+# Acknowledgments: https://techsolutions.bd/
 
